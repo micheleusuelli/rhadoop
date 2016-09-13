@@ -1,5 +1,5 @@
 
-sudo -u revolution R --vanilla <<EOF
+sudo su R --vanilla <<EOF
 repos <- "http://cran.stat.ucla.edu/"
 install.packages("data.table", repos = repos)
 install.packages("dplyr", repos = repos)
