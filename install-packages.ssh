@@ -1,0 +1,21 @@
+
+sudo -u revolution R --vanilla <<EOF
+repos <- "http://cran.stat.ucla.edu/"
+install.packages("data.table", repos = repos)
+install.packages("dplyr", repos = repos)
+install.packages("tidyr", repos = repos)
+install.packages("ggplot2", repos = repos)
+install.packages("ggdendro", repos = repos)
+install.packages("corrplot", repos = repos)
+install.packages("CORElearn", repos = repos)
+install.packages("e1071", repos = repos)
+install.packages("scales", repos = repos)
+install.packages("zoo", repos = repos)
+install.packages("rpart.plot", repos = repos)
+install.packages("rpart", repos = repos)
+install.packages("xgboost", repos = repos)
+install.packages("parallel", repos = repos)
+install.packages("AUC", repos = repos)
+install.packages("shiny", repos = repos)
+install.packages("devtools", repos = repos)
+EOF
